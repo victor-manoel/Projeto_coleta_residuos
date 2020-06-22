@@ -112,4 +112,11 @@ form button:hover{
 .items-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px
+}
+
+.items-grid{
+    background-color: #f5f5f5;
+
+ 
 }

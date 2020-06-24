@@ -133,10 +133,15 @@ form button:hover{
 }
 
 .items-grid li span{
+    margin-top: 12px;
     flex: 1;
     display: flex;
     align-items: center;
 
     color: var(--title-color);
+}
+
+.items-grid li.selected{
+    background: #e1faec;
 }
 

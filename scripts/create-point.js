@@ -44,3 +44,5 @@
     document
         .querySelector("select[name=uf]")
         .addEventListener("change", getCities)
+
+        //itens de coleta

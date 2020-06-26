@@ -46,3 +46,4 @@
         .addEventListener("change", getCities)
 
         //itens de coleta
+        const items

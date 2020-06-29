@@ -143,5 +143,6 @@ form button:hover{
 
 .items-grid li.selected{
     background: #e1faec;
+    font: 1em sans-serif;
 }
 

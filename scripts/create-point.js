@@ -46,4 +46,12 @@
         .addEventListener("change", getCities)
 
         //itens de coleta
-        const items
+        const itemsToCollect = document.querySelectorAll(".items-grid li")
+
+        for(const item of itemsToCollect){
+            item.addEventListener("click", handleSelectedItem)
+        }
+
+        function handleSelectedItem(event){
+            console.log(event.target)
+        }

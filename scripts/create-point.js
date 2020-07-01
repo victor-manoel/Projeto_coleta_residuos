@@ -53,5 +53,7 @@
         }
 
         function handleSelectedItem(event){
-            console.log(event.target)
+            //add ou remover classe com js
+
+            const itemId = event.target.dataset.id
         }

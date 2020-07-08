@@ -52,7 +52,9 @@
             item.addEventListener("click", handleSelectedItem)
         }
 
-        let selectedItems = [1, 2, 3, 4, 5, 6]
+         const  collectedItems = document.querySelector("imput[name=items]")
+
+        let selectedItems = []
 
         function handleSelectedItem(event){
             //add / remove class with JS
@@ -75,7 +77,13 @@
                     return itemIsDifferent
             })
 
-            consolw.log
-            }
+                selectedItems = filteredItems
+        } else {
+            selectedItems.push(itemId)
         }
+
+        //atualizar o campo escondido com os itens selecionados
+        collectedItems.value = selectedItems
+            }
+        
   

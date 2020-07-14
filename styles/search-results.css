@@ -1,3 +1,15 @@
+body::after {
+    content: "";
+    position: fixed;
+    background: white;
+    top: 260px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
 #page-search-results{
     width: 90%;
     max-width: 1100px;
@@ -30,123 +42,47 @@
     display: flex;
 }
 
-form{
-    background-color: white;
-    margin: 80px auto;
-    margin-top: 80px;
-    padding: 64px;
-    border-radius: 8px;
-    max-width: 730px;
-    
+main{
+    margin-top: 48px;
 }
 
-form h1{
-    font-size: 36px;
+main h4{
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 32px;
 }
 
-form fieldset{
-    margin-top: 64px;
-    border: 0;
-}
-
-form legend{
-    margin-bottom: 40px;
-}
-
-form legend h2{
-    font-size: 24px;
-}
-
-form .field{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
-}
-
-form .field-group{
-    display: flex;
-}
-
-form input, form select{
-    background-color: #f0f0f5;
-    border: 0;
-    padding: 16px 24px;
-    font-size: 16px;
-    border-radius: 8px;
-    /* outline: none; */  Serve pra identificar o campo que está selecionado
-}
-
-form select{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-form label{
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-
-form .field-group .field + .field{
-    margin-left: 24px;
-}
-
-form button{
-    width: 260px;
-    height: 56px;
-    background-color: var(--primary-color);
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    border: 0;
-    margin-top: 40px;
-    transition: background-color 400ms;
-}
-
-form button:hover{
-    background-color: #2fb86e;
-}
-
-.items-grid{
+main .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
 }
 
-.items-grid li{
-    background-color: #f5f5f5;
-    list-style: none;
-
-    border: 2px solid #f5f5f5;
-    border-radius: 8px;
-    height: 180px;
-
-    padding: 32px 24px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    cursor: pointer;
+main img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px 8px 0 0;
 }
 
-.items-grid li span{
-    margin-top: 12px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-
-    color: var(--title-color);
+main .card h1{
+    margin-top: 32px;
+    font-size: 36px;
+    line-height: 41px;
+    color: #322153;
 }
 
-.items-grid li.selected{
-    background: #e1faec;
-    font: 1em sans-serif;
+main .card h3{
+    margin: 24px 0;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: var(--primary-color);
 }
 
-.items-grid li img,
-.items-grid li span{
+main .card p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6c80;
 }
-

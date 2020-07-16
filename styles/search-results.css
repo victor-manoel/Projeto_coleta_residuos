@@ -83,7 +83,8 @@ main .card h3{
 }
 
 main .card p{
-    font-size: 16px;
+    
+    font-size: 15px;
     line-height: 26px;
     color: #6c6c80;
 }

@@ -2,7 +2,7 @@
 ### Aplicação para cadastrar ou consultar sistemas de coleta de resíduos em determinada região
 ### Application to register or consult waste collection systems in a region
 
-![Logo of the project](http://logo_link)
+![Logo of the project](https://github.com/victor-manoel/Projeto_coleta_residuos/blob/master/__MACOSX/extras-aula-1/wallpapers/screen_one.png)
 
 ## Name_of_the_project
 

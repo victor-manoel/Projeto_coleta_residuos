@@ -4,6 +4,4 @@
 > Javascript 
 > Html 
 > Css 
-
-![Image](screen_one.png)
- 
+![alt text](https://uploaddeimagens.com.br/imagens/uKaO5iQ)

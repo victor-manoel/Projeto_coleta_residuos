@@ -6,26 +6,23 @@
 
 ## Name_of_the_project
 
-... Description
+ECOLETA
 
 
 ## Technology 
 
 Here are the technologies used in this project.
 
-* Ruby version  x.x.x
-* Rails version x.x.x
-* ...
+* JAVASCRIPT
+* HTML
+* CSS
 
 
 ## Services Used
 
 * Github
-* ...
+* VS CODE
 
-
-## Ruby Gems
-...
 
 ## Getting started
 
@@ -36,23 +33,10 @@ Here are the technologies used in this project.
 * To run the project:
 >    $ rails s
 
-## How to use
-
-Here will be the images and descriptions. Principal content.
-
-
-## Features
-
-  - Here will be the features.
-
 
 ## Links
 
-  - Link of deployed application: (if has been deployed)
-  - Repository: https://link_of_repository
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
+  - Repository: https://github.com/victor-manoel/Projeto_coleta_residuos
 
 
 ## Versioning
@@ -62,7 +46,7 @@ Here will be the images and descriptions. Principal content.
 
 ## Authors
 
-* **YOUR NAME**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
+* **VICTOR MANOEL**: @VICTOR_MANOEL (https://github.com/victor-manoel)
 
 
 Please follow github and join us!

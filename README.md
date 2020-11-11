@@ -11,8 +11,6 @@ ECOLETA
 
 ## Technology 
 
-Here are the technologies used in this project.
-
 * JAVASCRIPT
 * HTML
 * CSS
@@ -22,16 +20,6 @@ Here are the technologies used in this project.
 
 * Github
 * VS CODE
-
-
-## Getting started
-
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
-* To run the project:
->    $ rails s
 
 
 ## Links

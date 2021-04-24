@@ -19,6 +19,7 @@ ECOLETA
 ## Services Used
 
 * Github
+* Github Pages
 * VS CODE
 
 
